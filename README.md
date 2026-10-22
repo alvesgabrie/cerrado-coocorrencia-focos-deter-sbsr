@@ -31,8 +31,8 @@ Não corresponde à área queimada ou desmatada e não estabelece relação caus
 
 Execute os notebooks na seguinte ordem:
 
-1. `[coocorrencia_deter_focos_sbsr.ipynb]`: verifica se a célula possui presença de polígono Deter e foco de calor, se sim, retorna essa informação em campos da tabela de atributos, esse processo se repete para cada ano Prodes, são 8 arquivos .geojson de saída.
-2. `[analise_estatistica_sbsr.ipynb]`: gera a tabela .csv com as informações estatísticas dos arquivos .geojson, quantos % de coocorrência para cado ano Prodes, dados por ecorregião, gráficos de linha mostrando a evolução anual destes dados.
+1. `coocorrencia_deter_focos_sbsr.ipynb`: verifica se a célula possui presença de polígono Deter e foco de calor, se sim, retorna essa informação em campos da tabela de atributos, esse processo se repete para cada ano Prodes, são 8 arquivos .geojson de saída.
+2. `analise_estatistica_sbsr.ipynb`: gera a tabela .csv com as informações estatísticas dos arquivos .geojson, quantos % de coocorrência para cado ano Prodes, dados por ecorregião, gráficos de linha mostrando a evolução anual destes dados.
 
 ## Dados de entrada
 
@@ -60,4 +60,4 @@ gráficos e mapas.
 
 ## Autoria
 
-[Gabriel Alves - Projeto Prodes Cerrado - Instituto Nacional de Pesquisas Espaciais.]
+Gabriel Alves - Projeto Prodes Cerrado - Instituto Nacional de Pesquisas Espaciais.
